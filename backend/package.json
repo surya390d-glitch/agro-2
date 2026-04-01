@@ -1,19 +1,26 @@
 {
-  "name": "agroguardian-backend",
-  "version": "1.0.0",
-  "description": "AgroGuardian Backend API",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js"
-  },
-  "dependencies": {
-    "axios": "^1.14.0",
-    "bcryptjs": "^2.4.3",
-    "cors": "^2.8.6",
-    "dotenv": "^16.6.1",
-    "express": "^4.22.1",
-    "jsonwebtoken": "^9.0.3",
-    "multer": "^1.4.5-lts.1"
-  }
+    "name": "agroguardian-backend",
+    "version": "1.0.0",
+    "description": "AgroGuardian Backend API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js",
+        "test": "cross-env NODE_ENV=test jest --runInBand --detectOpenHandles",
+        "test:watch": "cross-env NODE_ENV=test jest --watch"
+    },
+    "dependencies": {
+        "axios": "^1.14.0",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.6",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1",
+        "jsonwebtoken": "^9.0.3",
+        "multer": "^1.4.5-lts.1"
+    },
+    "devDependencies": {
+        "cross-env": "^7.0.3",
+        "jest": "^29.0.0",
+        "supertest": "^6.3.3"
+    }
 }
