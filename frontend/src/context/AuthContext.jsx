@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const AuthContext = createContext();
 
-const API = 'http://localhost:5000/api';
+const API = 'https://agro-backend-3m33.onrender.com';
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
