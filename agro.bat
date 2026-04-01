@@ -15,7 +15,7 @@ echo.
 echo ----------------------------------------------------
 echo  PLATFORM IS STARTING! 
 echo  Frontend: http://localhost:5173
-echo  Backend: http://localhost:5000
+echo  Backend: https://agro-backend-3m33.onrender.com
 echo ----------------------------------------------------
 echo.
 pause
